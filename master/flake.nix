@@ -1,5 +1,5 @@
 {
-  description = ''A helper module for writing unit tests in Nim with nake or similar build system.'';
+  description = ''A helper module for writing unit tests with nake or similar build system.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-findtests-master.flake = false;
   inputs.src-findtests-master.owner = "jackvandrunen";
-  inputs.src-findtests-master.ref   = "refs/heads/master";
+  inputs.src-findtests-master.ref   = "master";
   inputs.src-findtests-master.repo  = "findtests";
   inputs.src-findtests-master.type  = "github";
   
