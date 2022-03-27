@@ -11,6 +11,7 @@
   inputs.src-findtests-master.ref   = "refs/heads/master";
   inputs.src-findtests-master.owner = "jackvandrunen";
   inputs.src-findtests-master.repo  = "findtests";
+  inputs.src-findtests-master.dir   = "";
   inputs.src-findtests-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
